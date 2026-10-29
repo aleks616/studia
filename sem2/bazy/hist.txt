@@ -1,0 +1,46 @@
+
+  956  cd ..
+  957  mkdir bazy
+  958  cd bazy
+  959  brew install postgresql
+  960  brew install postgresql
+  961   echo 'export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"' >> ~/.zshrc
+  962  brew services start postgresql@18
+  963  postgresql
+  964  postgres -D
+  965  postgresql
+  966  postgresql@18 -D /usr/local/var/postgres status
+  967  initdb /usr/local/var/postgres
+  968  brew install postgres
+  969  man postgresql
+  970  cd ..
+  971  cd ..
+  972  cd ..
+  973  postgresq
+  974  postgresql
+  975  export LDFLAGS="-L/opt/homebrew/opt/postgresql@18/lib"\n  export CPPFLAGS="-I/opt/homebrew/opt/postgresql@18/include"
+  976   LC_ALL="en_US.UTF-8" /opt/homebrew/opt/postgresql@18/bin/postgres -D /opt/homebrew/var/postgresql@18\n
+  977  clear
+  978  sudo su postgres
+  979  psql
+  980  sudo su postgres
+  981  sudo su psql
+  982  sudo su postgres
+  983  # Source - https://stackoverflow.com/a/64306078\n# Posted by Đỗ Như Vý\n# Retrieved 2026-03-01, License - CC BY-SA 4.0\n\nsudo mkdir -p /etc/paths.d &&\necho /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp\n
+  984  psql
+  985  clear
+  986  create schema test;
+  987  psql
+  988  psql postgres
+  989  clear
+  990  psql postgres
+  991  clear
+  992  psql postgres
+  993  ls
+  994  cd Documents/cdv/bazy
+  995  ls
+  996  nano zadanie2.sql
+  997  echo zadanie2.sql
+  998  cat zadanie2.sql
+  999  uptime
+ 1000  nano zadanie3.sql
